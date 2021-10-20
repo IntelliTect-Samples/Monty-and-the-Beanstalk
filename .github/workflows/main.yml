@@ -26,3 +26,4 @@ jobs:
         use_existing_version_if_available: true
         region: us-west-2
         deployment_package: deploy.zip
+        wait_for_deployment: false # TODO: remove when app is working consistently
