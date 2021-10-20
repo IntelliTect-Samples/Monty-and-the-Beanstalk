@@ -6,10 +6,10 @@ An AWS Elastic Beanstalk example using Python
 
 - [x] Create basic Python web app
 - [ ] Deploy to AWS Beanstalk...
-  - [ ] using web UI
+  - [x] using web UI
   - [ ] using AWS CLI
   - [ ] using Terraform
-- [ ] Set up GitHub Actions for automatic deployment
+- [x] Set up GitHub Actions for automatic deployment
 - [ ] Set up [Makefile to easily run commands](https://earthly.dev/blog/python-makefile/)
 
 
