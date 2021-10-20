@@ -2,7 +2,7 @@
 An AWS Elastic Beanstalk example using Python
 
 
-### To start the API
+### Start the API
 
 PowerShell
 ```powershell
@@ -15,3 +15,11 @@ Bash
 > source .venv\Scripts\source # -- optional
 > uvicorn --app-dir ./app/ main:app
 ```
+
+### Create an AWS source code bundle
+
+```bash
+git archive -v -o monty-and-the-beanstalk.zip --format=zip HEAD
+```
+
+See: [https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/applications-sourcebundle.html](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/applications-sourcebundle.html)
