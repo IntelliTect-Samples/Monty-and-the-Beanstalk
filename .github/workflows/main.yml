@@ -1,5 +1,6 @@
-name: Deploy master
+name: Deploy main
 on:
+  workflow_dispatch:
   push:
     branches:
     - main
@@ -22,7 +23,6 @@ jobs:
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         application_name: Monty-and-the-Beanstalk
         environment_name: Montyandthebeanstalk-env
-        version_label: monty-and-the-beanstalk-source
-        use_existing_version_if_available: true
+        version_label: monty-and-the-beanstalk-source-v3
         region: us-west-2
         deployment_package: deploy.zip
