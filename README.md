@@ -1,4 +1,4 @@
-# Monty and the Beanstalk 
+# Monty and the Beanstalk :snake:
 An AWS Elastic Beanstalk example using Python
 
 
